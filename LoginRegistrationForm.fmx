@@ -1,0 +1,62 @@
+object myLogin: TmyLogin
+  Left = 0
+  Top = 0
+  Caption = 'Login'
+  ClientHeight = 224
+  ClientWidth = 480
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object UserName: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'UserName'
+    TabOrder = 1
+  end
+  object UserNameEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 208.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Password: TLabel
+    Position.X = 32.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Password'
+    TabOrder = 0
+  end
+  object PassEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 208.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object LoginButton: TButton
+    Position.X = 200.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 177.000000000000000000
+    Size.Height = 38.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'Login'
+    OnClick = LoginButtonClick
+  end
+  object messageLabel: TLabel
+    Position.X = 24.000000000000000000
+    Position.Y = 168.000000000000000000
+    TabOrder = 6
+  end
+end
