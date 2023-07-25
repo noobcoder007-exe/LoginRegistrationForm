@@ -47,6 +47,6 @@ Please adhere to the project's coding style and ensure that any additional code 
 
 ## Contact
 
-If you have any questions or inquiries, please feel free to contact me via email at prathamrajsri2003@gmailcom.
+If you have any questions or inquiries, please feel free to contact me via email at prathamrajsri2003@gmail.com
 
 Happy coding!
